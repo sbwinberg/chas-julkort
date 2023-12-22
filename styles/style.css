@@ -148,3 +148,30 @@ footer{
     transform: translateX(-100%) rotate(0deg);
     transition: transform .5s, rotate .5s;
 }
+
+.bubble {
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    background-color: #fff;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+
+    &::before{
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: auto;
+        right: 20px;
+        bottom: -40px;
+        border: 20px solid;
+        border-color: #ffffff #ffffff transparent transparent;
+    }
+
+    
+}

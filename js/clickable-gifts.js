@@ -12,6 +12,8 @@ const burk = document.querySelector('.gifts');
 const kartong = document.querySelector('.gifts');
 const elf = document.querySelector('.elf');
 
+const bubble = document.querySelector('.bubble')
+
 easter.addEventListener('click', () => {
     console.log('GOD JUL');
 })
@@ -26,7 +28,11 @@ gift.addEventListener('click', () => {
     alert("Hoppas tomten levererar 'packages' av glädje och 'dependencies' av lycka. God jul och en 'commit'-full start på det nya året!")
 })
 present.addEventListener('click', () => {
-    
+    bubble.style.opacity = '1'
+    setTimeout(() => {
+        bubble.style.opacity = '0'
+    }, 
+    1500);
 })
 klapp.addEventListener('click', () => {
     
