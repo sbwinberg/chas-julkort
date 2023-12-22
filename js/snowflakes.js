@@ -16,7 +16,7 @@ let xMovements = [];
 for (let i = 0; i <= maxSnowflakes; i++) {
     // Skapa HTML element för varje snöflinga
   document.write(`
-    <span id='snowflake${i}' class='snowflake' style='pointer-events:none;z-index:9999;position:fixed;top:-${maxSnowflakeSize}px'>
+    <span id='snowflake${i}' class='snowflake' style='user-select:none;pointer-events:none;z-index:9999;position:fixed;top:-${maxSnowflakeSize}px'>
       ${snowflakeIcons[generateRandomIndex(snowflakeIcons.length)]}
     </span>
   `);
