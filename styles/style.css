@@ -138,3 +138,13 @@ footer{
     left: 54.3%;
     transform: rotate(-8deg);
 }   
+
+.elf {
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    transform: translateX(-100%) rotate(0deg);
+    transition: transform .5s, rotate .5s;
+}
