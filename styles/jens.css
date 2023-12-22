@@ -1,0 +1,44 @@
+.display-none {
+    display: none;
+}
+
+.grinch-containter {
+    position: absolute;
+    top: 54%;
+    right: 41%;
+    width: 18px;
+    height: 18px;
+}
+
+.grinch {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+
+.greeting1 {
+    z-index: 2;
+    position: fixed;
+    top: 18%;
+    left: 2%;
+    text-align: center;
+}
+
+.bg-text-color {
+    background-color: antiquewhite;
+}
+
+.start-animation {
+    animation: growAnimation 4s ease-out forwards;
+  }
+
+@keyframes growAnimation {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(2)rotate(1080deg);
+    }
+}
