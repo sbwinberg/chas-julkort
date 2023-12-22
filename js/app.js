@@ -6,7 +6,7 @@ const grinchenimg = document.querySelector('.grinch');
 grinchenFeature.addEventListener('click', () => {
     grinchenimg.classList.remove('display-none');
     grinchenimg.classList.add('start-animation');
-    setTimeout(greeting, 4git 000);
+    setTimeout(greeting, 4000);
     console.log('click');
 })
 
